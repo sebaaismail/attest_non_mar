@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reportAttestNM" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" scriptletClass="com.sebaainf.ismUtils.IsmFunctions" uuid="0fb27e48-84f9-4c42-90bd-1d5fe21df999">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="coche1" class="java.lang.String"/>
+	<parameter name="coche2" class="java.lang.String"/>
+	<parameter name="coche3" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="prenom_cit" class="java.lang.String">
+		<fieldDescription><![CDATA[prenom_cit]]></fieldDescription>
+	</field>
+	<field name="wil_naiss_cit" class="java.lang.String">
+		<fieldDescription><![CDATA[wil_naiss_cit]]></fieldDescription>
+	</field>
+	<field name="datedeliv_cni_tem1" class="java.util.Date">
+		<fieldDescription><![CDATA[datedeliv_cni_tem1]]></fieldDescription>
+	</field>
+	<field name="date_naiss_cit" class="java.util.Date">
+		<fieldDescription><![CDATA[date_naiss_cit]]></fieldDescription>
+	</field>
+	<field name="num_cni_tem2" class="java.lang.Long">
+		<fieldDescription><![CDATA[num_cni_tem2]]></fieldDescription>
+	</field>
+	<field name="commune" class="java.lang.String">
+		<fieldDescription><![CDATA[commune]]></fieldDescription>
+	</field>
+	<field name="id_attest" class="java.lang.Integer">
+		<fieldDescription><![CDATA[id_attest]]></fieldDescription>
+	</field>
+	<field name="datedeliv_cni_tem2" class="java.util.Date">
+		<fieldDescription><![CDATA[datedeliv_cni_tem2]]></fieldDescription>
+	</field>
+	<field name="adress_cit" class="java.lang.String">
+		<fieldDescription><![CDATA[adress_cit]]></fieldDescription>
+	</field>
+	<field name="type_attest" class="java.lang.String">
+		<fieldDescription><![CDATA[type_attest]]></fieldDescription>
+	</field>
+	<field name="fullname_tem1" class="java.lang.String">
+		<fieldDescription><![CDATA[fullname_tem1]]></fieldDescription>
+	</field>
+	<field name="nom_cit" class="java.lang.String">
+		<fieldDescription><![CDATA[nom_cit]]></fieldDescription>
+	</field>
+	<field name="num_mar" class="java.lang.Integer">
+		<fieldDescription><![CDATA[num_mar]]></fieldDescription>
+	</field>
+	<field name="num_cni_tem1" class="java.lang.Long">
+		<fieldDescription><![CDATA[num_cni_tem1]]></fieldDescription>
+	</field>
+	<field name="lieudeliv_cni_tem2" class="java.lang.String">
+		<fieldDescription><![CDATA[lieudeliv_cni_tem2]]></fieldDescription>
+	</field>
+	<field name="lieu_naiss_cit" class="java.lang.String">
+		<fieldDescription><![CDATA[lieu_naiss_cit]]></fieldDescription>
+	</field>
+	<field name="date_attest" class="java.util.Date">
+		<fieldDescription><![CDATA[date_attest]]></fieldDescription>
+	</field>
+	<field name="lieudeliv_cni_tem1" class="java.lang.String">
+		<fieldDescription><![CDATA[lieudeliv_cni_tem1]]></fieldDescription>
+	</field>
+	<field name="comm_mar" class="java.lang.String">
+		<fieldDescription><![CDATA[comm_mar]]></fieldDescription>
+	</field>
+	<field name="wilaya" class="java.lang.String">
+		<fieldDescription><![CDATA[wilaya]]></fieldDescription>
+	</field>
+	<field name="fullname_tem2" class="java.lang.String">
+		<fieldDescription><![CDATA[fullname_tem2]]></fieldDescription>
+	</field>
+	<field name="daira" class="java.lang.String">
+		<fieldDescription><![CDATA[daira]]></fieldDescription>
+	</field>
+	<field name="comm_naiss_cit" class="java.lang.String">
+		<fieldDescription><![CDATA[comm_naiss_cit]]></fieldDescription>
+	</field>
+	<field name="date_mar" class="java.util.Date">
+		<fieldDescription><![CDATA[date_mar]]></fieldDescription>
+	</field>
+	<field name="vetoableChangeListeners" class="java.lang.Object">
+		<fieldDescription><![CDATA[vetoableChangeListeners]]></fieldDescription>
+	</field>
+	<field name="propertyChangeListeners" class="java.lang.Object">
+		<fieldDescription><![CDATA[propertyChangeListeners]]></fieldDescription>
+	</field>
+	<field name="date_conj1" class="java.util.Date">
+		<fieldDescription><![CDATA[date_conj1]]></fieldDescription>
+	</field>
+	<field name="date_conj2" class="java.util.Date">
+		<fieldDescription><![CDATA[date_conj2]]></fieldDescription>
+	</field>
+	<field name="date_conj3" class="java.util.Date">
+		<fieldDescription><![CDATA[date_conj3]]></fieldDescription>
+	</field>
+	<field name="date_conj4" class="java.util.Date">
+		<fieldDescription><![CDATA[date_conj4]]></fieldDescription>
+	</field>
+	<field name="fullname_conj1" class="java.lang.String">
+		<fieldDescription><![CDATA[fullname_conj1]]></fieldDescription>
+	</field>
+	<field name="fullname_conj3" class="java.lang.String">
+		<fieldDescription><![CDATA[fullname_conj3]]></fieldDescription>
+	</field>
+	<field name="fullname_conj4" class="java.lang.String">
+		<fieldDescription><![CDATA[fullname_conj4]]></fieldDescription>
+	</field>
+	<field name="fullname_conj2" class="java.lang.String">
+		<fieldDescription><![CDATA[fullname_conj2]]></fieldDescription>
+	</field>
+	<field name="fullname_dame" class="java.lang.String">
+		<fieldDescription><![CDATA[fullname_dame]]></fieldDescription>
+	</field>
+	<field name="nomFR_cit" class="java.lang.String">
+		<fieldDescription><![CDATA[nomFR_cit]]></fieldDescription>
+	</field>
+	<field name="prenomFR_cit" class="java.lang.String">
+		<fieldDescription><![CDATA[prenomFR_cit]]></fieldDescription>
+	</field>
+	<background>
+		<band height="802" splitType="Stretch">
+			<image>
+				<reportElement x="-40" y="-50" width="760" height="802" uuid="2b8f646b-df15-46c6-958e-b5d28a4f799c"/>
+				<imageExpression><![CDATA["files/masque.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<detail>
+		<band height="800" splitType="Stretch">
+					<textField>
+        				<reportElement x="390" y="52" width="121" height="32" uuid="0c08f997-d8ce-42cd-9625-8ca92e65e4ac"/>
+        				<textElement textAlignment="Right">
+        					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+        				</textElement>
+        				<textFieldExpression><![CDATA[$F{wilaya}]]></textFieldExpression>
+        			</textField>
+        			<textField>
+        				<reportElement x="390" y="70" width="121" height="32" uuid="993c4b9d-786c-4242-9544-ae2274f96240"/>
+        				<textElement textAlignment="Right">
+        					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+        				</textElement>
+        				<textFieldExpression><![CDATA[$F{daira}]]></textFieldExpression>
+        			</textField>
+        			<textField>
+        				<reportElement x="390" y="87" width="121" height="32" uuid="3f7a7d65-abcf-4d38-a0cd-cbd9cb0de3d7"/>
+        				<textElement textAlignment="Right">
+        					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+        				</textElement>
+        				<textFieldExpression><![CDATA[$F{commune}]]></textFieldExpression>
+        			</textField>
+			<textField>
+				<reportElement x="260" y="158" width="121" height="32" uuid="9224e0d4-e32c-46f6-bb31-53aec55c9fb8"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{commune}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="200" width="123" height="25" uuid="8fbfb8a1-a6f0-4a15-8252-5f0607ae15c1"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fullname_tem1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="200" width="121" height="28" uuid="9d33f573-2d2e-4b6f-a0ec-5ae66f350c43"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{num_cni_tem1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="222" width="112" height="24" uuid="1b012058-c2af-443b-a005-fbcfb5336025"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{lieudeliv_cni_tem1}]]></textFieldExpression>
+			</textField>
+			<textField pattern="yyyy/MM/dd">
+				<reportElement x="90" y="222" width="112" height="24" uuid="15194e56-7c10-4fb2-82e8-3f83d3f3b82e"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{datedeliv_cni_tem1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="244" width="121" height="28" uuid="521ba7b8-6d59-4669-8d72-cdb0c861c786"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fullname_tem2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="244" width="121" height="28" uuid="8e37801b-767b-4af1-a43d-75a6e23b9cec"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{num_cni_tem2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="266" width="116" height="26" uuid="dd0270ce-ddbf-4533-ae94-c539fbd4788e"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{lieudeliv_cni_tem2}]]></textFieldExpression>
+			</textField>
+			<textField pattern="yyyy/MM/dd">
+				<reportElement x="90" y="266" width="116" height="26" uuid="a82b1bbd-d805-4072-9f09-bf5c1f5d5685"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{datedeliv_cni_tem2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="288" width="186" height="31" uuid="abcf80bc-04ba-4974-b247-3f13a2ffd52e"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nom_cit} + " " + $F{prenom_cit}]]></textFieldExpression>
+			</textField>
+			<textField pattern="yyyy/MM/dd">
+				<reportElement x="90" y="288" width="115" height="31" uuid="9ab729a5-11f8-4549-816b-3e3bd6fc02ff"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{date_naiss_cit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="310" width="110" height="24" uuid="72e3fb59-950e-4d9d-86e9-747378750120"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{lieu_naiss_cit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="220" y="310" width="125" height="24" uuid="90f1f043-1104-476b-b2e3-37f5ac4ea7a2"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{comm_naiss_cit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="310" width="110" height="24" uuid="87fb346c-f3c0-4130-86eb-a377f712acb8"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{wil_naiss_cit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="332" width="120" height="25" uuid="0cb27bc5-b912-4735-9515-d46289139b1e"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{adress_cit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="280" y="376" width="139" height="24" uuid="a1f671cf-b99c-44f1-bde5-0c01c0435b95"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fullname_conj1}]]></textFieldExpression>
+			</textField>
+			<textField pattern="yyyy/MM/dd" isBlankWhenNull="true">
+				<reportElement x="50" y="376" width="111" height="24" uuid="295f7693-fd8b-4b65-8e16-01d20013897d"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{date_conj1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="270" y="398" width="142" height="29" uuid="f8859c46-ef04-47e2-bb4c-8c8341e387a2"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fullname_conj2}]]></textFieldExpression>
+			</textField>
+			<textField pattern="yyyy/MM/dd" isBlankWhenNull="true">
+				<reportElement x="30" y="398" width="114" height="29" uuid="6ee16fac-9a3d-4ebb-a9a2-70a62d6bc813"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{date_conj2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="250" y="420" width="142" height="29" uuid="87d73221-0d42-4de3-89e8-9fdc381c604a"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fullname_conj3}]]></textFieldExpression>
+			</textField>
+			<textField pattern="yyyy/MM/dd" isBlankWhenNull="true">
+				<reportElement x="50" y="420" width="114" height="29" uuid="15432573-6bbb-4f40-b59d-d31682f03ad0"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{date_conj3}]]></textFieldExpression>
+			</textField>
+			<textField pattern="yyyy/MM/dd" isBlankWhenNull="true">
+				<reportElement x="330" y="442" width="116" height="25" uuid="007169a2-329a-4df6-9336-91edbd9c5ec4"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{date_mar}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="150" y="442" width="116" height="25" uuid="4e9518ec-b55f-4bd5-9b52-544cc16fbbe9"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{comm_mar}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="-30" y="442" width="116" height="25" uuid="0add618b-da66-4066-b63b-43e6dfc341ac"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{num_mar} != 0 ? $F{num_mar} : ""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="464" width="142" height="29" uuid="e02c67ae-de13-4ae2-b231-59cf5122eb97"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fullname_conj4}]]></textFieldExpression>
+			</textField>
+			<textField pattern="yyyy/MM/dd" isBlankWhenNull="true">
+				<reportElement x="100" y="464" width="114" height="29" uuid="b4a6e28c-bf0d-4ae0-a62e-5e6917745ca0"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{date_conj4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="486" width="125" height="24" uuid="d629330c-afd7-45d5-af21-bfae2827737d"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fullname_dame}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="548" width="120" height="26" uuid="7c5a389c-149d-4683-8935-97a43ddc634a"/>
+				<textElement textAlignment="Right">
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{commune}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="390" y="640" width="190" height="29" uuid="9952212b-b433-46d6-9941-d75225381473"/>
+				<textElement>
+					<font fontName="Simplified Arabic" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomFR_cit}.toUpperCase() + " " + $P{REPORT_SCRIPTLET}.capitalizeFirstLetter($F{prenomFR_cit})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="105" width="132" height="44" uuid="fd171e78-d838-4dec-aae1-3f785d8a4ba9"/>
+				<textElement>
+					<font size="30" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{coche1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="105" width="119" height="38" uuid="29dcbcbb-fbbe-4906-9bf8-15c731ceb04a"/>
+				<textElement>
+					<font size="30" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{coche2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="105" width="119" height="38" uuid="2765bd0a-1b85-4dc4-a725-4bd3e6c908b8"/>
+				<textElement>
+					<font size="30" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{coche3}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
